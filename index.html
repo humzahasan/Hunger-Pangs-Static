@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://feedyui.netlify.app/library/lib.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hunger Pangs - Home Page</title>
+  </head>
+  <body>
+    <header class="navbar-header">
+      <nav class="navbar">
+        <div class="navbar-head">
+          <div class="navbar-toggle-btn" id="toggleBtn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="/"
+            ><img class="nav-logo" src="./assets/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="navbar-items navbar-right">
+          <ul class="navbar-links">
+            <li class="navbar-item item-center">
+              <input
+                id="home-search"
+                type="text"
+                placeholder="Type Cheese to begin"
+                class="input-box"
+              />
+            </li>
+            <li class="navbar-item">
+              <button class="btn btn-primary">
+                <a href="#btnaction"> Login</a>
+              </button>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="#action1">
+                  <img
+                    class="navbar-icon"
+                    src="./assets/shopping-cart.svg"
+                    alt=""
+                  />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="#action2">
+                  <img class="navbar-icon" src="./assets/heart.svg" alt="" />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="slider-menu">
+        <div class="card">
+          <div class="card-media">
+            <img src="../assets/pasta.jpg" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">PASTA</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-media">
+            <img src="../assets/burger.jpg" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">BURGER</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-media">
+            <img src="../assets/pizza.png" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">PIZZA</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-media">
+            <img src="../assets/pancake.jpg" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">PANCAKE</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-media">
+            <img src="../assets/salad.jpg" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">SALAD</p>
+          </div>
+        </div>
+      </section>
+      <div class="dark-section">
+        <div class="hero-section">
+          <img class="image" src="./assets/pasta.jpg" alt="" />
+          <img class="image-overlay" src="./assets/logo.png" alt="" />
+        </div>
+      </div>
+      <div class="trending-menu">
+        <div class="card card-horizontal">
+          <div class="card-media">
+            <img src="./assets/pancake.jpg" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">SOLD OUT</p>
+          </div>
+
+          <div class="card-action card-action-stacked">
+            <button class="btn btn-icon">
+              <i class="fas fa-heart"></i>Add To Card
+            </button>
+            <button class="btn btn-icon">
+              <i class="fas fa-share"></i>Save To Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="card card-horizontal">
+          <div class="card-media">
+            <img src="./assets/salad.jpg" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">SOLD OUT</p>
+          </div>
+
+          <div class="card-action card-action-stacked">
+            <button class="btn btn-icon">
+              <i class="fas fa-heart"></i>Add To Card
+            </button>
+            <button class="btn btn-icon">
+              <i class="fas fa-share"></i>Save To Wishlist
+            </button>
+          </div>
+        </div>
+        <div class="card card-horizontal">
+          <div class="card-media">
+            <img src="./assets/pasta.jpg" alt="" class="card-img" />
+            <p class="card-img-overlay overlay-hover">SOLD OUT</p>
+          </div>
+
+          <div class="card-action card-action-stacked">
+            <button class="btn btn-icon">
+              <i class="fas fa-heart"></i>Add To Card
+            </button>
+            <button class="btn btn-icon">
+              <i class="fas fa-share"></i>Save To Wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
