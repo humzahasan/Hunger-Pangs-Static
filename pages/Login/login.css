@@ -1,17 +1,5 @@
-.nav-logo {
-  width: 100%;
-}
-
 #home-search {
   width: 20rem;
-}
-
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem;
-  flex-direction: column;
 }
 
 form {
@@ -30,8 +18,4 @@ form {
   display: flex;
   justify-content: space-between;
   margin: 2rem;
-}
-
-#btn-Login {
-  width: 100%;
 }
