@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://feedyui.netlify.app/library/lib.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./register.css" />
+    <title>Hunger Pangs - Sign Up</title>
+  </head>
+  <body>
+    <header class="navbar-header">
+      <nav class="navbar">
+        <div class="navbar-head">
+          <div class="navbar-toggle-btn" id="toggleBtn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="/"
+            ><img class="nav-logo" src="../../assets/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="navbar-items navbar-right">
+          <ul class="navbar-links">
+            <li class="navbar-item item-center">
+              <input
+                id="home-search"
+                type="text"
+                placeholder="Type Cheese to begin"
+                class="input-box"
+              />
+            </li>
+            <li class="navbar-item">
+              <button class="btn btn-primary">
+                <a href="#btnaction"> Login</a>
+              </button>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="#action1">
+                  <img
+                    class="navbar-icon"
+                    src="../../assets/shopping-cart.svg"
+                    alt=""
+                  />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="#action2">
+                  <img
+                    class="navbar-icon"
+                    src="../../assets/heart.svg"
+                    alt=""
+                  />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="center-container">
+        <h1 class="md-title">Sign Up</h1>
+        <form>
+          <div class="input-label">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your cheesy email"
+              class="input-box"
+            />
+          </div>
+          <div class="input-label">
+            <label for="password">Password</label>
+            <input
+              name="password"
+              type="password"
+              placeholder="Enter your mixed password"
+              class="input-box input-outline"
+            />
+          </div>
+          <div class="form-additional">
+            <div class="input-checkbox">
+              <input type="checkbox" id="wraps" />
+              <label for="wraps">I accept the Terms & Conditions</label>
+            </div>
+          </div>
+          <button id="btn-Login" class="btn btn-primary">
+            <a href="#btnaction"> Login</a>
+          </button>
+        </form>
+        <a href="../Login/login.html">Already a user? Login</a>
+      </div>
+    </main>
+  </body>
+</html>
