@@ -4,7 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="wishlist.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header class="navbar-header">
+      <nav class="navbar">
+        <div class="navbar-head">
+          <div class="navbar-toggle-btn" id="toggleBtn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="/"
+            ><img class="nav-logo" src="../../assets/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="navbar-items navbar-right">
+          <ul class="navbar-links">
+            <li class="navbar-item item-center">
+              <input
+                type="text"
+                placeholder="Type Cheese to begin"
+                class="input-box home-searchbar"
+              />
+            </li>
+            <li class="navbar-item">
+              <button class="btn btn-primary">
+                <a class="nav-button" href="../Login/login.html"> Login</a>
+              </button>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="../Cart/cart.html">
+                  <img
+                    class="navbar-icon"
+                    src="../../assets/shopping-cart.svg"
+                    alt="cart"
+                  />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="./wishlist.html">
+                  <img
+                    class="navbar-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
