@@ -1,0 +1,34 @@
+.home-searchbar {
+  width: 20rem;
+}
+
+.nav-button {
+  padding: 0 5rem;
+}
+
+main {
+  margin: 4rem;
+  padding: 1rem;
+}
+
+.navbar-icon {
+  width: 2rem;
+  margin: 1rem;
+}
+
+.nav-logo {
+  width: 100%;
+}
+
+.auth-form {
+  background-color: var(--bg-light-color);
+  width: 30%;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.auth-form-additional {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}

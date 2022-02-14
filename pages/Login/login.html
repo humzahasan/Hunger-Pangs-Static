@@ -23,22 +23,21 @@
             <i class="fas fa-bars"></i>
           </div>
           <a href="/"
-            ><img class="width-100" src="../../assets/logo.png" alt="logo"
+            ><img class="nav-logo" src="../../assets/logo.png" alt="logo"
           /></a>
         </div>
         <div class="navbar-items navbar-right">
           <ul class="navbar-links">
             <li class="navbar-item item-center">
               <input
-                id="home-search"
                 type="text"
                 placeholder="Type Cheese to begin"
-                class="input-box"
+                class="input-box home-searchbar"
               />
             </li>
             <li class="navbar-item">
               <button class="btn btn-primary">
-                <a href="#btnaction"> Login</a>
+                <a class="nav-button" href="./login.html"> Login</a>
               </button>
             </li>
             <li class="navbar-item">
@@ -70,9 +69,9 @@
       </nav>
     </header>
     <main>
-      <div class=".flex-center-column">
+      <div class="flex-center-column">
         <h1 class="md-title">Sign In</h1>
-        <form>
+        <form class="auth-form">
           <div class="input-label">
             <label for="email">Email</label>
             <input
@@ -91,7 +90,7 @@
               class="input-box input-outline"
             />
           </div>
-          <div class="form-additional">
+          <div class="auth-form-additional">
             <div class="input-checkbox">
               <input type="checkbox" id="wraps" />
               <label for="wraps">Remeber Me</label>
