@@ -1,1 +1,12 @@
 @import url(../common.css);
+
+.wishlist-icon,
+.wishlist-icon:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
+    brightness(104%) contrast(97%);
+}
+
+/*Will move to CL*/
+.flex-wrap {
+  flex-wrap: wrap;
+}

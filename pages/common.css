@@ -18,6 +18,12 @@ main {
   margin: 1rem;
 }
 
+.navbar-icon:hover,
+.navbar-icon:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
+    brightness(104%) contrast(97%);
+}
+
 .nav-logo {
   width: 100%;
 }
