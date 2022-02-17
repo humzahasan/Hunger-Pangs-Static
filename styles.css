@@ -1,15 +1,4 @@
-.nav-logo {
-  width: 100%;
-}
-
-#home-search {
-  width: 20rem;
-}
-
-main {
-  margin: 4rem;
-  padding: 1rem;
-}
+@import url(./pages/common.css);
 
 .dark-section {
   background-color: var(--bg-light-color);
@@ -46,9 +35,4 @@ main {
 .slider-menu > .card > .card-media > img {
   overflow: hidden;
   height: 12.5rem;
-}
-
-.navbar-icon {
-  width: 2.5rem;
-  margin: 0.5rem;
 }

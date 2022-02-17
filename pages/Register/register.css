@@ -1,0 +1,14 @@
+@import url(../common.css);
+
+form {
+  background-color: var(--bg-light-color);
+  width: 30%;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.form-additional {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}

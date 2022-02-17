@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fc8019" />
     <link rel="stylesheet" href="https://feedyui.netlify.app/library/lib.css" />
     <link
       rel="stylesheet"
@@ -29,15 +30,14 @@
           <ul class="navbar-links">
             <li class="navbar-item item-center">
               <input
-                id="home-search"
                 type="text"
                 placeholder="Type Cheese to begin"
-                class="input-box"
+                class="input-box home-searchbar"
               />
             </li>
             <li class="navbar-item">
               <button class="btn btn-primary">
-                <a href="#btnaction"> Login</a>
+                <a class="nav-button" href="./pages/Login/login.html"> Login</a>
               </button>
             </li>
             <li class="navbar-item">
@@ -46,7 +46,7 @@
                   <img
                     class="navbar-icon"
                     src="./assets/shopping-cart.svg"
-                    alt=""
+                    alt="cart"
                   />
                 </a>
                 <span class="badge-count badge-quad">0</span>
@@ -55,7 +55,11 @@
             <li class="navbar-item">
               <div class="badge">
                 <a href="#action2">
-                  <img class="navbar-icon" src="./assets/heart.svg" alt="" />
+                  <img
+                    class="navbar-icon"
+                    src="./assets/heart.svg"
+                    alt="wishlist"
+                  />
                 </a>
                 <span class="badge-count badge-quad">0</span>
               </div>
@@ -68,45 +72,45 @@
       <section class="slider-menu">
         <div class="card">
           <div class="card-media">
-            <img src="../assets/pasta.jpg" alt="" class="card-img" />
+            <img src="../assets/pasta.jpg" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">PASTA</p>
           </div>
         </div>
         <div class="card">
           <div class="card-media">
-            <img src="../assets/burger.jpg" alt="" class="card-img" />
+            <img src="../assets/burger.jpg" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">BURGER</p>
           </div>
         </div>
         <div class="card">
           <div class="card-media">
-            <img src="../assets/pizza.png" alt="" class="card-img" />
+            <img src="../assets/pizza.png" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">PIZZA</p>
           </div>
         </div>
         <div class="card">
           <div class="card-media">
-            <img src="../assets/pancake.jpg" alt="" class="card-img" />
+            <img src="../assets/pancake.jpg" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">PANCAKE</p>
           </div>
         </div>
         <div class="card">
           <div class="card-media">
-            <img src="../assets/salad.jpg" alt="" class="card-img" />
+            <img src="../assets/salad.jpg" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">SALAD</p>
           </div>
         </div>
       </section>
       <div class="dark-section">
         <div class="hero-section">
-          <img class="image" src="./assets/pasta.jpg" alt="" />
-          <img class="image-overlay" src="./assets/logo.png" alt="" />
+          <img class="image" src="./assets/pasta.jpg" alt="food-item" />
+          <img class="image-overlay" src="./assets/logo.png" alt="logo" />
         </div>
       </div>
       <div class="trending-menu">
         <div class="card card-horizontal">
           <div class="card-media">
-            <img src="./assets/pancake.jpg" alt="" class="card-img" />
+            <img src="./assets/pancake.jpg" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">SOLD OUT</p>
           </div>
 
@@ -121,7 +125,7 @@
         </div>
         <div class="card card-horizontal">
           <div class="card-media">
-            <img src="./assets/salad.jpg" alt="" class="card-img" />
+            <img src="./assets/salad.jpg" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">SOLD OUT</p>
           </div>
 
@@ -136,7 +140,7 @@
         </div>
         <div class="card card-horizontal">
           <div class="card-media">
-            <img src="./assets/pasta.jpg" alt="" class="card-img" />
+            <img src="./assets/pasta.jpg" alt="food-item" class="card-img" />
             <p class="card-img-overlay overlay-hover">SOLD OUT</p>
           </div>
 
