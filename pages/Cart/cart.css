@@ -1,1 +1,19 @@
 @import url(../common.css);
+
+.cart-summary {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+button {
+  width: 100%;
+}
+
+.row-flex {
+  display: flex;
+  justify-content: space-between;
+}
