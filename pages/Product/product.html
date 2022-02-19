@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="product.css" />
+
+    <title>Hunger Pangs - Food Collection</title>
+  </head>
+  <body>
+    <header class="navbar-header">
+      <nav class="navbar">
+        <div class="navbar-head">
+          <div class="navbar-toggle-btn" id="toggleBtn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="/"
+            ><img class="nav-logo" src="../../assets/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="navbar-items navbar-right">
+          <ul class="navbar-links">
+            <li class="navbar-item item-center">
+              <input
+                type="text"
+                placeholder="Type Cheese to begin"
+                class="input-box home-searchbar"
+              />
+            </li>
+            <li class="navbar-item">
+              <button class="btn btn-primary">
+                <a class="nav-button" href="../Login/login.html"> Login</a>
+              </button>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="./cart.html">
+                  <img
+                    class="navbar-icon"
+                    src="../../assets/shopping-cart.svg"
+                    alt="cart"
+                  />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+            <li class="navbar-item">
+              <div class="badge">
+                <a href="../Wishlist/wishlist.html">
+                  <img
+                    class="navbar-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </a>
+                <span class="badge-count badge-quad">0</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-content">
+      <div class="grid-col-2 grid-col-3by7">
+        <div class="grid-item">
+          <div class="filter-section">
+            <div class="row-flex">
+              <p class="regular-text">Filters</p>
+              <p class="cta-text">Clear</p>
+            </div>
+            <div class="filter-price">
+              <p class="sm-text">Price</p>
+              <input
+                type="range"
+                name="price"
+                id="price-filter"
+                list="price-range"
+                min="300"
+                max="1000"
+                step="100"
+              />
+              <datalist id="price-range">
+                <option value="100"></option>
+                <option value="200"></option>
+                <option value="300"></option>
+                <option value="400"></option>
+                <option value="500"></option>
+                <option value="600"></option>
+                <option value="700"></option>
+                <option value="800"></option>
+                <option value="900"></option>
+                <option value="1000"></option>
+              </datalist>
+            </div>
+            <div class="filter-catergory">
+              <p class="sm-text">Catergory</p>
+              <div class="input-checkbox">
+                <input type="checkbox" id="veg" />
+                <label for="veg">Veg</label>
+              </div>
+              <div class="input-checkbox">
+                <input type="checkbox" id="non Veg" />
+                <label for="non Veg">Non Veg</label>
+              </div>
+              <div class="input-checkbox">
+                <input type="checkbox" id="vegan" />
+                <label for="vegan">Vegan</label>
+              </div>
+            </div>
+            <div class="filter-rating">
+              <p class="sm-text">Rating</p>
+              <label class="input-radio">
+                One Pizza <input type="radio" checked="checked" name="rating" />
+                <span class="radio-btn"></span>
+              </label>
+              <label class="input-radio">
+                Two Pizza <input type="radio" name="rating" />
+                <span class="radio-btn"></span>
+              </label>
+              <label class="input-radio">
+                Three Pizza
+                <input type="radio" name="rating" />
+                <span class="radio-btn"></span>
+              </label>
+              <label class="input-radio"
+                >Four Pizza <input type="radio" name="rating" />
+                <span class="radio-btn"></span>
+              </label>
+            </div>
+            <div class="filter-sortby">
+              <p class="sm-text">Sort By</p>
+              <label class="input-radio">
+                Price - High to Low
+                <input type="radio" name="radio" />
+                <span class="radio-btn"></span>
+              </label>
+              <label class="input-radio"
+                >Price - Low to High <input type="radio" name="radio" />
+                <span class="radio-btn"></span>
+              </label>
+              <label class="input-radio">
+                Delivery Time - High to Low
+                <input type="radio" name="radio" />
+                <span class="radio-btn"></span>
+              </label>
+              <label class="input-radio">
+                Delivery Time - Low to High <input type="radio" name="radio" />
+                <span class="radio-btn"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="product-card">
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">RED SAUCE PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">RED SAUCE PASTA</p>
+                <p class="card-subtitle">Rs.150</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">PASTA</p>
+                <p class="card-subtitle">Rs.190</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">PINK SAURCE PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">PINK SAURCE PASTA</p>
+                <p class="card-subtitle">Rs.175</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">RED SAUCE PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">RED SAUCE PASTA</p>
+                <p class="card-subtitle">Rs.150</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">PASTA</p>
+                <p class="card-subtitle">Rs.190</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">PINK SAURCE PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">PINK SAURCE PASTA</p>
+                <p class="card-subtitle">Rs.175</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">RED SAUCE PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">RED SAUCE PASTA</p>
+                <p class="card-subtitle">Rs.150</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">PASTA</p>
+                <p class="card-subtitle">Rs.190</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-dismisable">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="card-badge">
+                <p class="card-badge-icon">
+                  <img
+                    class="wishlist-icon"
+                    src="../../assets/heart.svg"
+                    alt="wishlist"
+                  />
+                </p>
+              </div>
+              <div class="card-media">
+                <img src="../../assets/pasta.jpg" alt="food" class="card-img" />
+                <p class="card-img-overlay overlay-hover">PINK SAURCE PASTA</p>
+              </div>
+              <div class="card-text">
+                <p class="card-title">PINK SAURCE PASTA</p>
+                <p class="card-subtitle">Rs.175</p>
+              </div>
+              <div class="card-action-column">
+                <button class="btn btn-primary">
+                  <a href="#btnaction"> Move to Cart</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
