@@ -40,3 +40,15 @@ main {
   justify-content: space-between;
   margin: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .auth-form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .auth-form {
+    width: 100%;
+  }
+}

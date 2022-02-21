@@ -30,3 +30,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1000px) {
+  .product-container {
+    grid-template-columns: 2fr;
+  }
+}
